@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#10231f">
-  <title>Weather Station Settings</title>
+  <title>Réglages de la station météo</title>
   <style>
     :root {
       color-scheme: light;
@@ -122,7 +122,7 @@
       <div class="mark" aria-hidden="true">
         <svg viewBox="0 0 24 24" fill="none"><path d="M12 3v8m0 0a3 3 0 1 0 3 3M12 11a3 3 0 1 1-3 3m3-3V7m0 0a2 2 0 1 0-2-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="M5 20h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
       </div>
-      <div><div class="brand">Weather Station</div><h1>Settings</h1></div>
+      <div><div class="brand">Station météo</div><h1>Réglages</h1></div>
     </header>
 
     <section class="hero">
@@ -135,8 +135,8 @@
         <div class="status" id="status"><span class="dot"></span><span id="statusText">Déconnecté</span></div>
       </div>
       <div class="actions">
-        <button class="primary" id="connectBtn">Connect to the station</button>
-        <button class="secondary" id="disconnectBtn" hidden>Disconnect</button>
+        <button class="primary" id="connectBtn">Connecter la station</button>
+        <button class="secondary" id="disconnectBtn" hidden>Déconnecter</button>
       </div>
     </section>
 
@@ -169,7 +169,7 @@
         <div><h3>Relais LoRa</h3><p class="section-sub">Stations dont les messages seront relayés</p></div>
       </div>
       <div class="toggle-row" style="margin-bottom:17px">
-        <div class="toggle-copy"><strong>Activer le relais</strong><small>Les ID ci-dessous seront acceptés, format "Ixxxx"</small></div>
+        <div class="toggle-copy"><strong>Activer le relais</strong><small>Les ID ci-dessous seront acceptés</small></div>
         <label class="switch" aria-label="Activer le relais"><input id="RELAI_ACTIF" type="checkbox" disabled><span class="slider"></span></label>
       </div>
       <div class="relay-list">
